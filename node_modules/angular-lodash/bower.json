@@ -1,0 +1,16 @@
+{
+  "name": "r0ten-angular-lodash",
+  "main": "r0ten-angular-lodash.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/radarsu/r0ten-angular-lodash",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~4.0.0"
+  }
+}

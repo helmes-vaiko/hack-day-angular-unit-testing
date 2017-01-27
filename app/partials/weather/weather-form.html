@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>5 day weather forecast for {{ctrl.cityName}}</h1>
+
+    <table class="table">
+        <thead>
+            <tr class="active">
+                <th ng-repeat="weatherRow in ctrl.weatherData">{{weatherRow.timestamp}}</th>
+                <th>Average temp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td ng-repeat="weatherRow in ctrl.weatherData">
+                    {{weatherRow.description}}<br/>
+                    {{weatherRow.temp}}&#8451;
+                </td>
+                <td>
+                    <br/>
+                    {{ctrl.averageTemp}}&#8451;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
